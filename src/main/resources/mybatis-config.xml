@@ -1,0 +1,6 @@
+<mybatis>
+<!--    使用数据源hikari-->
+    <dataSource>druid</dataSource>
+    <mapper>mapper/UserMapper.xml</mapper>
+<!--    <mapper>mapper/StudentMapper.xml</mapper>-->
+</mybatis>

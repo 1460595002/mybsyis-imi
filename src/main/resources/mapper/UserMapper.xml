@@ -1,0 +1,8 @@
+<mapper namespace="cn.jinronga.mapper.UserMapper">
+    <insert id="saveUser" resultType="cn.jinronga.entity.User" paramType="cn.jinronga.entity.User">
+        insert into user values(?,?,?)
+    </insert>
+    <select id="findUser" resultType="cn.jinronga.entity.User" paramType="cn.jinronga.entity.User">
+        select * from user where id = ?
+    </select>
+</mapper>
